@@ -1,0 +1,16 @@
+{
+  "name": "knoxy",
+  "version": "1.0.0",
+  "description": "A drop-in replacement for knox, which proxies the official AWS node client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "knox",
+    "s3",
+    "aws"
+  ],
+  "author": "rouanw",
+  "license": "MIT"
+}
