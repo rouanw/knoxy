@@ -21,8 +21,8 @@ test('upload a buffer, list and remove', (t) => {
       client.deleteMultiple(files, (err, result) => {
         t.notOk(err, 'should have no delete errors');
         t.equal(result.Deleted[0].Key, 'the/test.txt', 'should delete specified file');
+        t.end();
       });
     });
-    t.end();
   });
 });
