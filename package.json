@@ -2,7 +2,7 @@
   "name": "knoxy",
   "version": "1.0.0",
   "description": "A drop-in replacement for knox, which proxies the official AWS node client",
-  "main": "index.js",
+  "main": "knoxy.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,5 +12,8 @@
     "aws"
   ],
   "author": "rouanw",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.376.0"
+  }
 }
