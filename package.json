@@ -6,6 +6,9 @@
   "scripts": {
     "test": "node test"
   },
+  "publishConfig":{
+    "registry": "https://registry.npmjs.org"
+  },
   "keywords": [
     "knox",
     "s3",
