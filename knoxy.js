@@ -13,7 +13,9 @@ Knoxy.prototype.list = function (params, callback) {
 Knoxy.prototype.deleteMultiple = function (objects, callback) {
   this.awsClient.deleteObjects({
     Delete: {
-      Objects: objects
+      Objects: objects.map(function (object) {
+        return { Key: object };
+      })
     }
   }, callback);
 };

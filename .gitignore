@@ -16,3 +16,4 @@ npm-debug.log.*
 *.sublime-*
 .floo*
 /dist
+.auth.json
