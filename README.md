@@ -19,6 +19,7 @@ PRs welcome. To run the tests, you need to create a `.auth.json` file in the roo
   "key": "MyAWSKey",
   "secret": "SoSecret!",
   "bucket": "a-bucket",
+  "region": "eu-west-1"
 }
 ```
 

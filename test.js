@@ -7,7 +7,7 @@ test('upload a buffer, list and remove', (t) => {
     key: auth.key,
     secret: auth.secret,
     bucket: auth.bucket,
-    region: 'eu-west-1',
+    region: auth.region,
   });
   t.ok(client, 'should instantiate a client');
   const buffer = Buffer.from('myfile', 'utf8');
