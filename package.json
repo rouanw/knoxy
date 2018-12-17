@@ -6,6 +6,12 @@
   "scripts": {
     "test": "node test"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "pre-push": "npm audit"
+    }
+  },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },
@@ -20,6 +26,7 @@
     "aws-sdk": "^2.376.0"
   },
   "devDependencies": {
+    "husky": "^1.2.1",
     "tape": "^4.9.1"
   }
 }
