@@ -2,6 +2,12 @@
 
 > A drop-in replacement for (some of) [knox](https://github.com/Automattic/knox) that proxies the AWS node client.
 
+## Usage
+
+`npm install knoxy`
+
+Then take a look at the [knox docs](https://github.com/Automattic/knox).
+
 ## Why?
 
 `knoxy` is a useful library, but is not currently [actively maintained](https://github.com/Automattic/knox/issues/308). This means it has a [security vulnerability](https://github.com/Automattic/knox/pull/321) and some other issues.
