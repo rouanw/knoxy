@@ -6,6 +6,8 @@
 
 `npm install knoxy`
 
+Replace `const knox = require('knox');` with `const knox = require('knoxy');`.
+
 Then take a look at the [knox docs](https://github.com/Automattic/knox).
 
 ## Why?
