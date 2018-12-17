@@ -1,12 +1,12 @@
 {
   "name": "knoxy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A drop-in replacement for knox, which proxies the official AWS node client",
   "main": "knoxy.js",
   "scripts": {
     "test": "node test"
   },
-  "publishConfig":{
+  "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },
   "keywords": [
