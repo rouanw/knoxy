@@ -12,7 +12,7 @@ Then take a look at the [knox docs](https://github.com/Automattic/knox).
 
 ## Why?
 
-`knoxy` is a useful library, but is not currently [actively maintained](https://github.com/Automattic/knox/issues/308). This means it has a [security vulnerability](https://github.com/Automattic/knox/pull/321) and some other issues.
+`knox` is a useful library, but is not currently [actively maintained](https://github.com/Automattic/knox/issues/308). This means it has a [security vulnerability](https://github.com/Automattic/knox/pull/321) and some other issues.
 
 If you're starting a new project that needs to do things with Amazon S3, I recommend you use the [official AWS node client](https://www.npmjs.com/package/aws-sdk).
 
